@@ -53,7 +53,7 @@ const carsData = [
   {
     id: 4,
     imgs: [
-      "https://sn2files.storage.live.com/y4pneEmMudnDNT009lLVIexC_migBYLAplAF6hwh9Y3xpkoVt3VmOEJRUT0jPZHMt4kLmGSA4ZTL_YQgXR3z0D-ywmc1UqKSxBiS0JsLpukie9e4ucwsn8BzruPytmfw8Xj47ZFHCoJVq8WswbTZvTSLDZmPqrd0U1chy_t7PiJGLBv8PUlAyH7amezjkgesBhEyWe12LG7efkt2XnRHDBObJDtTavnpdzCLSH4gysvD98/golfR.jpg?psid=1&width=1515&height=786",
+      "https://i.ibb.co/9ggZNbc/golfR.jpg",
       "https://motofilm.pl/wp-content/uploads/2020/11/Volkswagen-Golf-R-2021-2.jpg",
       "https://motofilm.pl/wp-content/uploads/2020/11/Volkswagen-Golf-R-2021-6.jpg",
     ],
