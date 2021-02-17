@@ -1,0 +1,76 @@
+Users:
+
+1.
+  Login: Admin
+  Password: 123456
+
+-----------------------------------------------
+
+Base url: http://localhost:8000
+
+Endpoint: '/users'
+
+1. POST (login user):
+  body: {
+    login: string,
+    password: string,
+  }
+
+  responses:
+    - status: 404, message: 'Uzytkownik o podanym loginie nie istnieje'
+    - status: 401, message: 'Haslo lub login sie nie zgadza',
+    - status: 200, data: user(object)
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie POST w endpointcie /users'
+
+Endpoint: '/cars'
+
+1. GET (download all cars)
+
+  responses:
+    - status: 200, data: courses(object[])
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie GET w endpointcie /courses'
+
+2.  PUT (upload update car)
+  body: {
+    describle string,
+    id: number,
+    imgs: string[],
+    date: string,
+    title: string,
+  }
+
+  responses:
+    - status: 400, message: 'Nie podano wszystkich wymaganych informacji'
+    - status: 404, message: 'Nie znaleziono kursu o podanym id'
+    - status: 202, data: courses(object[])
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie PUT w endpointcie /cars'
+
+3. POST (add new car)
+  body: {
+    describle string,
+    id: number,
+    imgs: string[],
+    date: string,
+    title: string,
+  }
+
+  responses:
+    - status: 400, message: 'Nie podano wszystkich wymaganych informacji'
+    - status: 409, message: 'Istnieje juz w bazie kurs ${title}'
+    - status: 201, data: courses(object[])
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie POST w endpointcie /cars'
+
+4. DELETE (delete car)
+  params: '/cars/:id'
+
+  responses:
+    - status: 404, message: 'Nie znaleziono kursu o podanym id'
+    - status: 200
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie DELETE w endpointcie /cars/:id'
+
+5. GET (get one car)
+  params: '/cars/:id'
+
+  responses:
+    - status: 200, data: course(object)
+    - status: 500, message: 'Oops! Cos poszlo nie tak, przy metodzie GET w endpointcie /cars/:id'
