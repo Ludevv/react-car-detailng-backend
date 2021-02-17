@@ -13,4 +13,6 @@ server.use(cors());
 server.use("/cars", carsRoutes);
 server.use("/users", usersRoutes);
 
-server.listen(8000, () => console.log("Server for cars is started..."));
+var PORT = process.env.PORT || 8000;
+
+server.listen(PORT, () => console.log("Server for cars is started..."));
