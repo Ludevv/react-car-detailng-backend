@@ -4,9 +4,9 @@ const carsData = [
   {
     id: 0,
     imgs: [
-      "https://mediapool.bmwgroup.com/cache/P9/201803/P90295640/P90295640-the-new-bmw-m2-coup-edition-black-shadow-03-2018-2371px.jpg",
-      "https://2p2bboli8d61fqhjiqzb8p1a-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/bmw_m2_black_shadow-5.jpg",
-      "https://www.bmw.pl/content/dam/bmw/common/all-models/m-series/m2-coupe/2019/highlights/bmw-m2-competition-highlights-m2-competition-mosaic-gallery-desktop-04.jpg",
+      "https://i.ibb.co/NYzg8vk/bmw1.jpg",
+      "https://i.ibb.co/5B2vbfL/bmw2.jpg",
+      "https://i.ibb.co/89Qz47D/bmw3.jpg",
     ],
     date: "2020-01-24",
     describle:
@@ -16,9 +16,9 @@ const carsData = [
   {
     id: 1,
     imgs: [
-      "https://www.mercedes-benz.pl/passengercars/mercedes-benz-cars/models/s-class/coupe-c217/amg/equipment/_jcr_content/swipeableteaserbox/par/swipeableteaser_1066808109/asset.MQ6.12.20191011065837.jpeg",
-      "https://www.mercedes-benz.pl/passengercars/mercedes-benz-cars/models/amg-gt/4-door-coupe-x290/design/model-comparison/_jcr_content/comparisonslider/par/comparisonslide/interiorImage.MQ6.12.20190711094333.jpeg",
-      "https://i.iplsc.com/mercedes-amg-gt-63-s-4matic-4door-coupe-edition-1/0007CKTZAD1295YG-C125-F4.jpg",
+      "https://i.ibb.co/wccRPH9/merc1.jpg",
+      "https://i.ibb.co/jgQXscb/merc3.jpg",
+      "https://i.ibb.co/88ZX9hp/merc3.jpg",
     ],
     date: "2020-05-15",
     describle:
@@ -28,9 +28,9 @@ const carsData = [
   {
     id: 2,
     imgs: [
-      "https://www.autotest.sk/wp-content/uploads/2017/09/seat-leon-cupra-r-2018.jpg",
-      "https://car-images.bauersecure.com/pagefiles/75454/seat_leon_cuprar_11.jpg",
-      "https://motofilm.pl/wp-content/uploads/2020/02/New-Cupra-Leon-5.jpg",
+      "https://i.ibb.co/2MMfq05/seat1.jpg",
+      "https://i.ibb.co/09jwKmP/seat2.jpg",
+      "https://i.ibb.co/fSkg6XG/seat3.jpg",
     ],
     date: "2020-07-30",
 
@@ -41,9 +41,9 @@ const carsData = [
   {
     id: 3,
     imgs: [
-      "https://i1.wp.com/cartests.net/wp-content/uploads/2020/02/2020-volkswagen-golf-gti_main.jpg?fit=1200%2C800&ssl=1",
-      "https://carmag.co.za/upload/articles/2020/08/8gti.jpg",
-      "https://wokolmotoryzacji.pl/wp-content/uploads/2020/02/2020-volkswagen-golf-gti-12.jpg",
+      "https://i.ibb.co/mhVg3hb/golf1.jpg",
+      "https://i.ibb.co/b3R6bw4/golf2.jpg",
+      "https://i.ibb.co/DG0znsF/gofl3.jpgg",
     ],
     date: "2020-12-04",
     describle:
@@ -54,8 +54,8 @@ const carsData = [
     id: 4,
     imgs: [
       "https://i.ibb.co/9ggZNbc/golfR.jpg",
-      "https://motofilm.pl/wp-content/uploads/2020/11/Volkswagen-Golf-R-2021-2.jpg",
-      "https://motofilm.pl/wp-content/uploads/2020/11/Volkswagen-Golf-R-2021-6.jpg",
+      "https://i.ibb.co/R6wpY7m/golf22.jpg",
+      "https://i.ibb.co/t8FFdt1/golf33.jpg",
     ],
     date: "2021-01-24",
     describle:
